@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto clase</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+ <header>
+    <nav>
+        <ul>
+          <li>
+           <div class="placaheader">
+            <img src="./IMAGENES.LASFLORES/imagen-lasflores-0.png" width="55px"></img>
+            <p><a href="home.html">LAS FLORES</a></p>
+           </div>
+          </li>          
+         <li><a :hover:not(.active) class="nav-Menú" href="menu.html">Ver Menú</a></li>
+         <li><a :hover:not(.active) class="nav-Nosotros" href="nosotros.html">Sobre Nosotros</a></li>
+         <li><a :hover:not(.active) class="nav-prensa" href="prensa.html">Prensa</a></li>
+         <li><a :hover:not(.active) class="nav-Contacto" href="contacto.html">Contacto</a></li>
+       </ul>
+   </nav>
+</header>
+<body class="bodycontacto">
+<div class="primerdivcontacto">
+    <img src="./IMAGENES.LASFLORES/imagen-lasflores-contacto.jpg"></img>
+ <div class="divtextocontacto">
+  <div class="divubicacioncontacto">
+    <h1 class="contatcoubicacion">Ubicación</h1>
+    <h2>Gorriti 5870, Palermo, CABA</h2>
+    <p>Te esperamos!</p>
+  </div>
+  <div class="divhorariocontacto">
+    <h1>Horario</h1>
+    <h2>Martes a Viernes:</h2>
+    <p>9-18hs y de 20-24hs</p>
+    <h2>Sábados:</h2>
+    <p>10-18hs y de 20-24hs</p>
+    <h2>Domingos:</h2>
+    <p>10-19hs o sold out</p>
+  </div>
+ </div>
+</div>
+    <div class="mapaplaca">
+        <h2>Gorriti 5870, Palermo, CABA</h2>
+        <button> <a href="https://goo.gl/maps/XLrYscvpJi4REDWbA">Indicaciones</a></button>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8396136059864!2d-58.44437038103921!3d-34.58292461055383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59214c6e69f%3A0xbd6f73df6a6daf60!2sLas%20Flores!5e0!3m2!1ses!2sar!4v1664351124571!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <h1>Formulario de contacto</h1>
+    <form action="/action_page.php">
+        <label for="tipodec">Tipo de Contacto*</label>
+        <input type="text" id="tipodec" name="tipodec"><br><br>
+      <label for="fname">Nombre y Apellido*</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="mail">Correo electronico*</label>
+      <input type="text" id="mail" name="mail"><br><br>
+      <label for="telefono">Telefono*</label>
+      <input type="text" id="telefono" name="telefono"><br><br>
+      <label for="comentario">Comentario*</label>
+      <input type="text" id="comentario" name="comentario"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+</body>
+<footer>
+    <img src="./IMAGENES.LASFLORES/imagen-lasflores-0.png"></img>
+   <div>
+    <p>Gorriti 5870, Palermo, CABA</p>
+    <img src="./IMAGENES.LASFLORES/facebook-icono 1.jpg">
+    <img src="./IMAGENES.LASFLORES/instagram-icono3.jpg">
+    <img src="./IMAGENES.LASFLORES/twitter-icono2.jpg">
+   </div>
+  </footer>
